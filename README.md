@@ -1,1 +1,2 @@
-# Aprendizagens_em_HTML_CSS_JavaScript
+# Desenvolvimento de algumas aplicações em HTML,CSS e JavaScript
+
