@@ -1,0 +1,3 @@
+Esse projeto é a recriação do jogo clássico "FreeWay" produzido pela Activision utilizando a linguagem de programação JavaScript a partir do p5.js Web Editor. Nesse trabalho pude aprender e compreender mais sobre lógica de programação,listas,laços de repetições, a importância de dividir o código por responsabilidades, funções e retorno de função. 
+
+Além disso, aprendi a importância da refatoração, para manter o código limpo e legível. Queria agradecer ao instrutor Guilherme Lima(https://github.com/guilhermeonrails) por esses ensinamentos que iram contribuir ainda mais para a minha formação como desenvolvedor back-end.
