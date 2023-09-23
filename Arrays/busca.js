@@ -5,8 +5,8 @@ const alunos = ['João','Juliana','Ana','Caio'];
 const notas = [10,8,7.5,9];
 const alunosnotas = [alunos,notas];
 
-let nome = prompt("Entre com um nome: ");
-exibe(nome);
+let alunonome = prompt("Entre com um nome: ");
+exibe(alunonome);
 
 function exibe(aluno){
 
@@ -14,7 +14,8 @@ function exibe(aluno){
 
         console.log(`${aluno} está cadastrado`);
         const indice = alunosnotas[0].indexOf(aluno);
-        console.log(`A média de ${aluno} foi: ${alunosnotas[1][indice]}`);
+        const media =  alunosnotas[1][indice];
+        console.log(`A média de ${aluno} foi: ${media}`);
     }
     else {
         console.log(`${aluno} não está cadastrado`);
