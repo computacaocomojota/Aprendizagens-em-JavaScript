@@ -1,3 +1,7 @@
+
+const ps = require("prompt-sync");
+const prompt = ps();
+
 const cliente = {
     nome: 'João',
     idade: 19,
@@ -14,4 +18,5 @@ const cliente = {
     }
 }
 };
-cliente.efetuaPagamento(25);
+const pag = prompt("Entre com o valor do produto: ");
+cliente.efetuaPagamento(Number(pag));
