@@ -1,10 +1,11 @@
 const livros = require("./livros");
 const menorValor = require("./menor");
 
-for(let i = 0;i<livros.length-1;i++){
+let[menor,livroAtual,livroMenor] = [0,livros[0],livros[menor]];
 
-    let menor = menorValor(livros,i);
-    let [livroAtual,livroMenor] = [livros[i],livros[menor]]
+for(let i = 0;i<livros.length-1;i++){
+    menor = menorValor(livros,i);
+    [livroAtual,livroMenor] = [livros[i],livros[menor]]
     livros[i] = livroMenor
     livros[menor] = livroAtual;
 }
