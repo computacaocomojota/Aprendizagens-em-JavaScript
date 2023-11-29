@@ -1,8 +1,12 @@
-const Livros = require("./precosLivros.json") ;
-let maisBarato = 0;
-for(let i = 0;i<Livros.length;i++){
-    if(Livros[i].preco<Livros[maisBarato].preco){
-        maisBarato = i
+const Livros = require("./livros") ;
+function menorValor(listaProdutos,posicao){
+
+    let indexMaisBarato = posicao;
+    for(let i = posicao;i<listaProdutos.length;i++){
+        if(listaProdutos[i].preco<listaProdutos[indexMaisBarato].preco){
+            indexMaisBarato = i
+        }
     }
-}   
-console.log(Livros[maisBarato]);
+    return indexMaisBarato;
+}
+module.exports = menorValor; 

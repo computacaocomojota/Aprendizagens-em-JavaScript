@@ -1,4 +1,4 @@
-[
+const livros = [
     {
         "titulo": "JavaScript",
         "preco" : 25
@@ -24,3 +24,5 @@
         "preco" : 20
     }
 ]
+
+module.exports = livros;
