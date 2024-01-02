@@ -1,9 +1,9 @@
 const Livros = require("./livros") ;
-function menorValor(listaProdutos,posicao){
+function menorValor(lista,posicao){
 
     let indexMaisBarato = posicao;
-    for(let i = posicao;i<listaProdutos.length;i++){
-        if(listaProdutos[i].preco<listaProdutos[indexMaisBarato].preco){
+    for(let i = posicao;i<lista.length;i++){
+        if(lista[i].preco<lista[indexMaisBarato].preco){
             indexMaisBarato = i
         }
     }
