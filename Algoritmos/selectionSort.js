@@ -1,5 +1,5 @@
 const livros = require("./livros");
-const menorValor = require("./menor");
+const menorValor = require("./menorValor");
 
 let[menor,livroAtual,livroMenor] = [0,livros[0],livros[menor]];
 
