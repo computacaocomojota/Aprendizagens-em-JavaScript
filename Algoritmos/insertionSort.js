@@ -1,5 +1,6 @@
 const livros = require("./livros");
 
+console.log('Antes de Ordenar:',livros)
 function insertionSort(lista){
 
     for(let atual = 0;atual<lista.length;atual++){
@@ -18,5 +19,5 @@ function insertionSort(lista){
 }
 
 const livrosOrdenados = insertionSort(livros);
-console.log(livrosOrdenados);
+console.log('Depois de Ordenados:',livrosOrdenados);
 
