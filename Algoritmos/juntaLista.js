@@ -28,3 +28,5 @@ function juntaLista(lista1, lista2) {
 
 console.log(juntaLista(edFolha, edGalho))
 
+module.exports = juntaLista;
+
