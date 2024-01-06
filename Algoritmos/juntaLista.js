@@ -21,15 +21,8 @@ function juntaLista(lista1, lista2) {
     }
   }
 
-  while (atualLista1 < lista1.length) {
-    listaFinal.push(lista1[atualLista1])
-    atualLista1++
-  }
-
-  while (atualLista2 < lista2.length) {
-    listaFinal.push(lista2[atualLista2])  
-    atualLista2++
-  }
+  listaFinal.concat(atualLista1<lista1.length ? lista1.slice(atualLista1) : lista2.slice(atualLista2))
+  
   return listaFinal
 }
 
