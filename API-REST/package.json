@@ -1,7 +1,7 @@
 {
   "name": "express-mongo",
   "version": "1.0.0",
-  "description": "Projeto de API de uma Livraria",
+  "description": "Projeto de API de uma Livraria utilizando o Express e o MongoDB",
   "main": "index.js",
   "type": "module",
   "scripts": {
