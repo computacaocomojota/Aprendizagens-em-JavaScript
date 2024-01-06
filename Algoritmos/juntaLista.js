@@ -21,12 +21,10 @@ function juntaLista(lista1, lista2) {
     }
   }
 
-  listaFinal.concat(atualLista1<lista1.length ? lista1.slice(atualLista1) : lista2.slice(atualLista2))
+  return listaFinal.concat(atualLista1<lista1.length ? lista1.slice(atualLista1) : lista2.slice(atualLista2))
   
-  return listaFinal
 }
 
 console.log(juntaLista(edFolha, edGalho))
 
-module.exports = juntaLista;
 
